@@ -1,0 +1,20 @@
+spring:
+  data:
+    mongodb:
+      host: 127.0.0.1
+      database: articledb
+      port: 27017
+      username: dev
+      password: '123456'
+      authentication-database: admin
+
+      # 连接池配置
+      #      connection-pool:
+      #        max-size: 100
+      #        min-size: 10
+      #        max-wait-time-ms: 3000
+      #
+      #      # 超时配置
+      #      connect-timeout: 3000  # 连接超时(毫秒)
+      #      socket-timeout: 3000   # 读写超时(毫秒)
+      #uri: mongodb://dev:123456@192.168.3.223:27017,192.168.3.223:27018,192.168.3.223:27019/articledb?authSource=admin&connect=replicaSet&slaveOk=true&replicaSet=myrs
